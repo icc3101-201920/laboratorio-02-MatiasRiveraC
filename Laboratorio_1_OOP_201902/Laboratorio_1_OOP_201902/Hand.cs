@@ -5,24 +5,22 @@ using System.Text;
 
 namespace Laboratorio_1_OOP_201902
 {
-    public class Hand
+    public class Hand : Deck
     {
         private List<CombatCard> combatCards;
-        private List<SpecialCard> SpecialCards;
+        private List<SpecialCard> specialCards;
 
-        public Hand()
+        public Hand(List<CombatCard> combatCards, List<SpecialCard> specialCards)
         {
-
+            this.combatCards = combatCards;
+            this.specialCards = specialCards;
         }
 
         public List<CombatCard> CombatCards { get => combatCards; set => combatCards = value; }
-        public List<SpecialCard> SpecialCards1 { get => SpecialCards; set => SpecialCards = value; }
+        public List<SpecialCard> SpecialCards { get => specialCards; set => SpecialCards = value; }
 
-        
-        public void AddCombatCard(CombatCard combatCard) { throw new NotImplementedException(); }
-        public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); }
-        public void DestroyCombatCard(int cardId) { throw new NotImplementedException(); }
-        public void DestroySpecialCard(int cardId) { throw new NotImplementedException(); }
-        
+
+
+
     }
 }

@@ -103,6 +103,13 @@ namespace Laboratorio_1_OOP_201902
         }
 
         //Metodos
+
+        public void ChoseCaptainCard(SpecialCard captainCard)
+        {
+            captainCard = captainCard;
+        }
+
+
         public void DrawCard()
         {
             throw new NotImplementedException();

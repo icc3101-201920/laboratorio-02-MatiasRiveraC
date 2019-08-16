@@ -103,9 +103,84 @@ namespace Laboratorio_1_OOP_201902
             this.captainCards = new SpecialCard[DEFAULT_NUMBER_OF_PLAYERS];
         }
 
-        
+
 
         //Metodos
+
+        public void AddCombatCard(int playerId, CombatCard combatCard)
+        {
+
+            if (combatCard.Type== "MeleeCard")
+            {
+                MeleeCards[playerId].Add(combatCard);
+            }
+            if (combatCard.Type == "RangeCard")
+            {
+                RangeCards[playerId].Add(combatCard);
+            }
+            if (combatCard.Type == "LongRangeCard")
+            {
+                LongRangeCards[playerId].Add(combatCard);
+            }
+        }
+
+        public void AddSpecialCard(int playerId, SpecialCard specialCard, string buffType)
+        {
+            if (specialCard.Type == "SpecialMeleeCard")
+            {
+                SpecialMeleeCards[playerId].Add(specialCard);
+            }
+            if (specialCard.Type == "SpecialRangeCard")
+            {
+                SpecialRangeCards[playerId].Add(specialCard);
+            }
+            if (specialCard.Type == "SpecialLongRangeCard")
+            {
+                SpecialLongRangeCards[playerId].Add(specialCard);
+            }
+
+        }
+
+
+        public void DestroyCombatCard(int playerId)
+        {
+            
+
+        }
+
+        public void DestroySpecialCards()
+        {
+            
+
+
+        }
+
+        public int[] GetMeleeAttackPoints()
+        {
+            foreach (var player in players)
+            {
+                if (player.board.Meleecards)
+                {
+                    return player.card.AttackPoints;   
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
+
+        public int[] GetRangeAttackPoints()
+        {
+
+        }
+
+        public int[] GetLongRangeAttackPoints()
+        {
+
+        }
+
+
         public void AddMeleeCard(int PlayerId, CombatCard combatCard)
         {
             throw new NotImplementedException();
