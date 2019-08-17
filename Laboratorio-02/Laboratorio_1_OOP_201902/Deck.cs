@@ -14,10 +14,9 @@ namespace Laboratorio_1_OOP_201902
 
         }
 
-        
 
         public void AddCombatCard(CombatCard combatCard) { throw new NotImplementedException(); }
-        public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); }
+        public void AddSpecialCard(SpecialCard specialCard) { throw new NotImplementedException(); } //Methods sames as the ones in Board Class
         public void DestroyCombatCard(int cardId) { throw new NotImplementedException(); }
         public void DestroySpecialCard(int cardId) { throw new NotImplementedException(); }
         public void Shuffle()

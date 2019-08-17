@@ -126,6 +126,18 @@ namespace Laboratorio_1_OOP_201902
 
 		public void AddSpecialCard(int playerId, SpecialCard specialCard, string buffType)
 		{
+			if (specialCard.Type == "SpecialMelee")
+			{
+				SpecialMeleeCards[playerId] = specialCard;
+			}
+			if (specialCard.Type == "SpecialRange")
+			{
+				SpecialRangeCards[playerId] = specialCard;
+			}
+			if (specialCard.Type == "SpecialLongRange")
+			{
+				SpecialLongRangeCards[playerId] = specialCard;
+			}
 			if (specialCard.Type == "Captain")
 			{
 				AddCaptainCard(playerId, specialCard);
@@ -138,11 +150,11 @@ namespace Laboratorio_1_OOP_201902
 		}
 
 
-		public void DestroyCombatCard()
+		public void DestroyCombatCard(int playerId)
 		{
-			DestroyMeleeCard();
-			DestroyRangeCard();
-			DestroyLongRangeCard();
+			DestroyMeleeCard(playerId);
+			DestroyRangeCard(playerId);
+			DestroyLongRangeCard(playerId);
 
 		}
 
@@ -201,51 +213,51 @@ namespace Laboratorio_1_OOP_201902
 
 		public void AddMeleeCard(int PlayerId, CombatCard combatCard)
         {
-            throw new NotImplementedException();
+			meleeCards[PlayerId].Add(combatCard);
         }
         public void AddRangeCard(int PlayerId, CombatCard combatCard)
         {
-            throw new NotImplementedException();
-        }
+			rangeCards[PlayerId].Add(combatCard);
+		}
         public void AddLongRangeCard(int PlayerId, CombatCard combatCard)
         {
-            throw new NotImplementedException();
-        }
+			longRangeCards[PlayerId].Add(combatCard);
+		}
         public void AddCaptainCard(int PlayerId, SpecialCard specialCard)
         {
-            throw new NotImplementedException();
-        }
+			captainCards[PlayerId] =specialCard;
+		}
         public void AddWeatherCard(int PlayerId, SpecialCard specialCard)
         {
-            throw new NotImplementedException();
-        }
-        public void DestroyMeleeCard()
+			weatherCards.Add(specialCard);
+		}
+        public void DestroyMeleeCard(int PlayerId)
         {
-            throw new NotImplementedException();
+			meleeCards[PlayerId].Clear();
         }
-        public void DestroyRangeCard()
+        public void DestroyRangeCard(int PlayerId)
         {
-            throw new NotImplementedException();
+			rangeCards[PlayerId].Clear();
         }
-        public void DestroyLongRangeCard()
+        public void DestroyLongRangeCard(int PlayerId)
         {
-            throw new NotImplementedException();
-        }
+			longRangeCards[PlayerId].Clear();
+		}
         public void DestroySpecialMeleeCard()
         {
-            throw new NotImplementedException();
+			Array.Clear(specialMeleeCards, 0, specialMeleeCards.Length);
         }
         public void DestroySpecialRangeCard()
         {
-            throw new NotImplementedException();
-        }
+			Array.Clear(specialRangeCards, 0, specialRangeCards.Length);
+		}
         public void DestroySpecialLongRangeCard()
         {
-            throw new NotImplementedException();
-        }
+			Array.Clear(specialLongRangeCards, 0, specialLongRangeCards.Length);
+		}
         public void DestroyWeatherCard()
         {
-            throw new NotImplementedException();
+			weatherCards.Clear();
         }
         
     }

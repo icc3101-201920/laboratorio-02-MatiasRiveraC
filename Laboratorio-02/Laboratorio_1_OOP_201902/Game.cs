@@ -59,7 +59,6 @@ namespace Laboratorio_1_OOP_201902
                 endGame = value;
             }
         }
-
         //Metodos
         public bool CheckIfEndGame()
         {

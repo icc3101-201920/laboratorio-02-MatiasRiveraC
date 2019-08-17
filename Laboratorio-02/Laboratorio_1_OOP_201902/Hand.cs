@@ -19,6 +19,5 @@ namespace Laboratorio_1_OOP_201902
         public List<SpecialCard> SpecialCards1 { get => SpecialCards; set => SpecialCards = value; }
 
         
-        
     }
 }

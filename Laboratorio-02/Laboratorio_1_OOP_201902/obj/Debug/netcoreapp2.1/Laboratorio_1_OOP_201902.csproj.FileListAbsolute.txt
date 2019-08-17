@@ -31,3 +31,14 @@ C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio_1_OOP_201902\
 C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.AssemblyInfo.cs
 C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.dll
 C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.pdb
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.csprojAssemblyReference.cache
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.csproj.CoreCompileInputs.cache
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.AssemblyInfoInputs.cache
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.AssemblyInfo.cs
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.dll
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.pdb
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.deps.json
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.runtimeconfig.json
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.runtimeconfig.dev.json
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.dll
+C:\Users\MatiasPC\Desktop\laboratorio-02-MatiasRiveraC\Laboratorio-02\Laboratorio_1_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_1_OOP_201902.pdb

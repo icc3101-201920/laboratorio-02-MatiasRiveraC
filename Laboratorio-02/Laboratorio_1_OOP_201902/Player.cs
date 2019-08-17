@@ -103,7 +103,6 @@ namespace Laboratorio_1_OOP_201902
         }
 
 		//Metodos
-
 		public void ChoseCaptainCard(SpecialCard captainCard)
 		{
 			captain = captainCard;

@@ -57,3 +57,8 @@ namespace Laboratorio_1_OOP_201902.Card
 
     }
 }
+
+
+
+
+
