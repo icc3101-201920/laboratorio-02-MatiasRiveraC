@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MatiasPC\\Desktop\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {}
+    "C:\\Users\\MatiasPC\\Desktop\\laboratorio-02-MatiasRiveraC\\Laboratorio-02\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MatiasPC\\Desktop\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {
+    "C:\\Users\\MatiasPC\\Desktop\\laboratorio-02-MatiasRiveraC\\Laboratorio-02\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatiasPC\\Desktop\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
+        "projectUniqueName": "C:\\Users\\MatiasPC\\Desktop\\laboratorio-02-MatiasRiveraC\\Laboratorio-02\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
         "projectName": "Laboratorio_1_OOP_201902",
-        "projectPath": "C:\\Users\\MatiasPC\\Desktop\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
+        "projectPath": "C:\\Users\\MatiasPC\\Desktop\\laboratorio-02-MatiasRiveraC\\Laboratorio-02\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902.csproj",
         "packagesPath": "C:\\Users\\MatiasPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatiasPC\\Desktop\\Laboratorio_1_OOP_201902\\Laboratorio_1_OOP_201902\\obj\\",
+        "outputPath": "C:\\Users\\MatiasPC\\Desktop\\laboratorio-02-MatiasRiveraC\\Laboratorio-02\\Laboratorio_1_OOP_201902\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

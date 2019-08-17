@@ -158,17 +158,44 @@ namespace Laboratorio_1_OOP_201902
 
 		public int[] GetMeleeAttackPoints()
 		{
-			throw new NotImplementedException();
+			List<int> cont = new List<int>();
+			foreach (var cards in meleeCards)
+			{
+				foreach (var card in cards)
+				{
+					cont.Add(card.AttackPoints);
+				}
+			}
+			int[] Cont = cont.ToArray();
+			return Cont;
 		}
 
 		public int[] GetRangeAttackPoints()
 		{
-			throw new NotImplementedException();
+			List<int> cont = new List<int>();
+			foreach (var cards in rangeCards)
+			{
+				foreach (var card in cards)
+				{
+					cont.Add(card.AttackPoints);
+				}
+			}
+			int[] Cont = cont.ToArray();
+			return Cont;
 		}
 
 		public int[] GetLongRangeAttackPoints()
 		{
-			throw new NotImplementedException();
+			List<int> cont = new List<int>();
+			foreach (var cards in longRangeCards)
+			{
+				foreach (var card in cards)
+				{
+					cont.Add(card.AttackPoints);
+				}
+			}
+			int[] Cont = cont.ToArray();
+			return Cont;
 		}
 
 
